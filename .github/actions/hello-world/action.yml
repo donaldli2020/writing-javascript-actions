@@ -1,20 +1,20 @@
-name: "my hello action"
+name: "My Hello Action"
 
-description: "say hello with actions"
+description: "Say 'Hello' with actions"
 
 inputs:
   first-greeting:
-    description: "who would you like to greet in the console"
+    description: "Who would you like to greet in the console?"
     required: true
-    default: "Hubot"
+    default: "Robot"
 
   second-greeting:
-    description: "another person to greet"
+    description: "Another person to greet."
     required: true
-    default: "Mona the Octocat"
+    default: "Human"
 
   third-greeting:
-    description: "a third greeting"
+    description: "A third greeting."
     required: false
 
 runs:
